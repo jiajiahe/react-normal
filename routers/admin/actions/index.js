@@ -1,0 +1,17 @@
+// 获取账号列表
+export const ADMIN_GET_ACCOUNT_LIST = 'ADMIN_GET_ACCOUNT_LIST';
+
+// 重置密码
+export const ADMIN_RESET_PASSWORD = 'ADMIN_RESET_PASSWORD';
+
+// 停用账号
+export const ADMIN_CHANGE_ACCOUNT_STATUS = 'ADMIN_CHANGE_ACCOUNT_STATUS';
+
+// 删除账号
+export const ADMIN_DELETE_ACCOUNT = 'ADMIN_DELETE_ACCOUNT';
+
+// 创建账号
+export const ADMIN_CREATE_ACCOUNT = 'ADMIN_CREATE_ACCOUNT';
+
+// 设置新创建的账号
+export const ADMIN_SET_NEW_ACCOUNTS = 'ADMIN_SET_NEW_ACCOUNTS';

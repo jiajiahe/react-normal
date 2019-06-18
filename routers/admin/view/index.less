@@ -1,0 +1,35 @@
+#admin-box{
+    position: relative;
+    .ant-tabs-ink-bar{
+        background:transparent;
+        position: relative;
+        &::after{
+            content:'';
+            position: absolute;
+            width:30px;
+            height:3px;
+            background:#3544A9;
+            border-radius: 3px;
+            left:50%;
+            bottom:0;
+            transform: translateX(-50%);
+        }
+    }
+    .search-box{
+        width:220px;
+        .ant-input{
+            border-radius: 2px;
+        }
+        svg{
+            font-size: 18px;
+        }
+    }
+    .admin-header-right{
+        position: absolute;
+        right:20px;
+        top:5px;
+    }
+    .ant-input-affix-wrapper:hover .ant-input:not(.ant-input-disabled) {
+        border-color: #4B5CCD;
+    }
+}

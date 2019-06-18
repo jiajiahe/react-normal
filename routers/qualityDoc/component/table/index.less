@@ -1,0 +1,76 @@
+#table{
+  background:#fff;
+  .passColor{
+    color:#22AD31;
+  }
+  .backColor{
+    color:#D72819;
+  }
+  .formName{
+    color: #3A49AC;
+    letter-spacing: 0;
+    cursor: pointer;
+  }
+  .line{
+    background:#111;
+  }
+  .action{
+     font-size: 14px;
+     color: #3A49AC;
+     letter-spacing: 0;
+    .actionItem{
+      cursor: pointer;
+    }
+    .export{
+      padding-left:20px;
+      background:url(../../../assets/i-export-pdf.svg) no-repeat;
+    }
+    .lineColor{
+      background:#3A49AC;
+    }
+  }
+  //覆盖蚂蚁样式
+  .ant-table-thead > tr > th{
+    &.ant-table-column-has-actions.ant-table-column-has-sorters:hover{
+      background: #F1F2F7;
+    }
+    //table表头的排序icon
+    .ant-table-column-sorter{
+      .anticon svg{
+        display:none;
+      }
+    }
+    .ant-table-column-sorter-up.on{
+      width:12px;
+      height:12px;
+      background:url(../../../assets/i-fall-in.png);
+    }
+    .ant-table-column-sorter-up.off{
+      width:12px;
+      height:12px;
+      background:url(../../../assets/i-rise.png);
+    }
+    .ant-table-column-sorter{
+      right:0;
+      left:92px;
+      margin-top:-7px;
+    }
+  }
+  .ant-table-tbody > tr > td.ant-table-column-sort{
+    background: #fff;
+  }
+  .ant-table-tbody > tr:hover{
+    background: #f0f8ff;
+  }
+  .ant-table-pagination.ant-pagination{
+    float: initial;
+    text-align: center;
+  }
+}
+.reasonText{
+  height:133px;
+  &.ant-input-disabled{
+    background-color:#fff;
+    color: #D72819;
+  }
+}

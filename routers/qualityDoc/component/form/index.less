@@ -1,0 +1,147 @@
+.drawerForm{
+  height:100%;
+  .ant-drawer-body{
+    padding:16px 30px 29px;
+    overflow: auto;
+    padding-bottom: 53px;
+    height:calc(~"100% - 55px" );
+  }
+  .form-title{
+    text-align:center;
+  }
+  #form{
+    font-size: 14px;
+    .form-item{
+      white-space: nowrap;
+      overflow:hidden;
+      text-overflow:ellipsis;
+      color:#111;
+      vertical-align: top;
+      display:inline-block;
+    }
+    .form-item-left{
+      margin-left:15px;
+    }
+    .form-item-right{
+      margin-right:30px;
+    }
+    .form-item-no-right{
+      margin-right:0;
+    }
+    .form-no-border{
+      border:0;
+      .donnerHosp{
+        width:145px;
+      }
+      .doc,.relativeDoc{
+        width:78px;
+      }
+      .phone{
+        width:104px;
+      }
+    }
+    .right{
+      float:right;
+    }
+    .form-middle-content{
+      border: 1px solid #CDCDCD;
+      .form-text{
+        display:inline-block;
+        line-height:39px;
+        color: #666;
+        margin:0 12px;
+      }
+      .form-sub-middle-content{
+        display:table;
+        .form-item-box{
+          background: #F2F2F2;
+          border: 1px solid #CDCDCD;
+          width:247px;
+          padding-left:15px;
+          margin-top:11px;
+        }
+        .form-sub-left{
+          border-right:1px solid #CDCDCD;
+          width:50%;
+          display:table-cell;
+        }
+        .form-sub-right{
+          width:50%;
+          display:table-cell;
+          .form-item-box{
+            width:290px;
+          }
+        }
+        .form-sub-title{
+          width:100%;
+          font-size: 16px;
+          color: #333333;
+          letter-spacing: 0;
+          padding-left:15px;
+          height:34px;
+          line-height: 34px;
+          background: #ECECEC;
+          border-top: 1px solid #CDCDCD;
+          border-bottom: 1px solid #CDCDCD;
+        }
+        .form-sub-content{
+          padding:16px 0 20px 30px;
+        }
+        .form-full-width{
+          width:100%;
+        }
+
+      }
+      .form-sub-end-content{
+        border-top:1px solid #CDCDCD;
+        .form-sub-end-item{
+          width:100%;
+          overflow:hidden;
+        }
+      }
+      .otherCon{
+        position: relative;
+        .sub{
+          position:absolute;
+          top:-18px;
+          left:18px;
+        }
+      }
+      .ant-checkbox-checked .ant-checkbox-inner{
+        background-color: #4B5CCD;
+        border-color: #4B5CCD;
+      }
+    }
+    //覆盖蚂蚁的样式
+    .ant-form-item-label label{
+      color: #666;
+    }
+    .ant-form-inline .ant-form-item > .ant-form-item-control-wrapper,
+    .ant-radio-wrapper{
+      span{
+        color:#111;
+      }
+      .ant-radio-inner:after{
+        background:#fff;
+      }
+      .ant-radio-checked .ant-radio-inner{
+        background:#4B5CCD;
+        border-color: #4B5CCD;
+      }
+      span.ant-radio + *{
+        padding-left:4px;
+        white-space: initial;
+      }
+    }
+    .ant-form input[type="radio"]{
+      cursor: default;
+    }
+  }
+  .drawer-footer{
+    text-align:center;
+    margin-top:30px;
+    .btn-right{
+      margin-right:10px;
+    }
+  }
+}
